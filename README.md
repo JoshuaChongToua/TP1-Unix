@@ -155,9 +155,12 @@ root@serveur-correction:~# df -h
 
 ## 3.2
 
-- Si j'oublie le password de root, je vais dans le dossier shadow, je copie un mot de passe d'un utilisateur que je connais puis je remplace celui de root par celui que je viens de copié.
+- Accèder au menu GRUB lors du démarrage ou redémarrage de la machine.
+- Repèrer la ligne qui commence par linux, remplacer ro (lecture seule) par rw (lecture-écriture) et ajouter init=/bin/bash à la fin de la ligne. Cela permettra de démarrer directement en mode shell avec les permissions root.
+- Enuite avec les droits root on peut executer la commande passwd pour changer le password de root.
+- Puis on redemarre la machine.
 
-  
+## 3.3
 
 
 
