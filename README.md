@@ -158,6 +158,10 @@ root@serveur-correction:~# df -h
 - Enuite avec les droits root on peut executer la commande passwd pour changer le password de root.
 - Puis on redemarre la machine.
 
+
+src: https://www.malekal.com/comment-reinitialiser-le-mot-de-passe-root-depuis-grub/
+
+
 ## 3.3
 
 
