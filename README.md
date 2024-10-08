@@ -1,7 +1,5 @@
 # TP1-Unix
 
-##Intro
-
 ## 2.1
 - nano /etc/ssh/sshd_config
 - J'ai remplacer "PermitRootLogin prohibit-password" par "PermitRootLogin yes".
