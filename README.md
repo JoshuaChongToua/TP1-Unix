@@ -11,7 +11,7 @@
 root@serveur-correction:~# dpkg -l | wc -l
 330
 ```
-En tapant la commande dpkg -l | wc -l j'obtiens 330 pacquets.
+En tapant la commande dpkg -l | wc -l j'obtiens 330 paquets.
 
 ## 2.4
 ```bash
